@@ -1,5 +1,5 @@
-import { DashboardPage } from "./dashboard"
-import { Auth } from "./auth/Auth"
+import { DashboardPage } from "./pages/dashboard/DashboardPage"
+import { Auth } from "./pages/auth/Auth"
 
 const routes = [
     {path: '/auth', element: <Auth/>},
